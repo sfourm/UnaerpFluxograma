@@ -1,0 +1,47 @@
+// Narrativa
+
+1- Crie 3 variaveis tipo decimal (nota1, nota2 e media)
+2- Receba valores nota1 e nota2
+3.1- Faça média ponderada dos dois valores, sendo
+3.2- media = (nota1 * 1.4) + (nota2 * 1.6)
+4- Exiba media
+
+//Pseudocódigo
+
+algoritmo "media ponderada"
+
+declare
+	nota1, nota2 : decimal
+	media :  decimal
+
+inicio
+ 	
+    escreva("Insira a primeira nota:")
+	leia(nota1)
+	
+    escreva("Insira a segunda nota:")
+	leia(nota2)
+
+	media <- (nota1 * 1.4) + (nota2 * 1.6)
+	
+    escreva("Média = ", media)
+
+fim
+
+//Código
+
+int main (){
+    
+    float nota1, nota2;
+    float media;
+
+    printf("Insira a primeira nota:");
+    scanf("%f", &nota1);
+
+    printf("Insira a segunda nota:");
+    scanf("%f", &nota2);
+
+    media = ((nota1 * 1.4) + (nota2 * 1.6))
+
+    printf("Média= %f", media);
+}
