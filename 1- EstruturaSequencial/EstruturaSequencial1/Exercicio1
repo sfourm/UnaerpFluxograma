@@ -22,7 +22,7 @@ inicio
     escreva("Insira a segunda nota:")
 	leia(nota2)
 
-	media <- (nota1 * 1.4) + (nota2 * 1.6)
+	media <- (nota1 * 0.4) + (nota2 * 0.6)
 	
     escreva("Média = ", media)
 

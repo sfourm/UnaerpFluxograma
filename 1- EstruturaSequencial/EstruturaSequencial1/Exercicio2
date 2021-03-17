@@ -41,7 +41,7 @@ int main (){
     printf("Insira seu salário bruto: ");
     scanf("%f", &vlr1);
 
-    printf("Insira a porcentagem do vlr2 do salário bruto: ");
+    printf("Insira o valor de desconto: ");
     scanf("%f", &vlr2);
 
     printf("Insira a comissão do salário: ");
